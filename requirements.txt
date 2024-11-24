@@ -1,0 +1,11 @@
+python-dateutil
+pyyaml
+requests
+Flask
+pytest
+jsonify
+kubernetes
+gunicorn
+yamlreader
+ptvsd # Required for debugging.(CloudCode)
+pygithub

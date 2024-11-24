@@ -1,0 +1,11 @@
+apiVersion: skaffold/v2beta8
+kind: Config
+metadata:
+  name: git-org-manager
+build:
+  artifacts:
+    - image: sf-docker-golden.common.repositories.cloud.sap/k8s/tools/git-org-manager
+      docker:
+         dockerfile: Dockerfile
+  tagPolicy:
+    sha256: {}
