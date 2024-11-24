@@ -4,7 +4,7 @@ metadata:
   name: git-org-manager
 build:
   artifacts:
-    - image: sf-docker-golden.common.repositories.cloud.sap/k8s/tools/git-org-manager
+    - image: xxxx
       docker:
          dockerfile: Dockerfile
   tagPolicy:
